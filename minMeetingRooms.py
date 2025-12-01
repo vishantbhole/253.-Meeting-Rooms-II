@@ -30,3 +30,6 @@ if __name__ == "__main__":
     sol = Solution()
     intervals = [Interval(0, 40), Interval(5, 10), Interval(15, 20)]
     print("Output is:", sol.minMeetingRooms(intervals))  # Expected False [web:2][web:4][web:6]
+
+    intervals2 = [Interval(4, 9)]
+    print("Output is:", sol.minMeetingRooms(intervals2))
